@@ -1,6 +1,6 @@
 # DADA3: A bug-fixing team
 
-**Deployed app:** your Render URL here
+**Deployed app:** https://bug-fixing-team-mnni.onrender.com/
 
 ## Write-up
 
