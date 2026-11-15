@@ -16,7 +16,7 @@ team (2) :     resolved 10/10, triage 10/10, bugs fixed 7/7, false claims 0, 96 
 baseline (2):  resolved 9/10, triage 10/10, bugs fixed 6/7, false claims 1, 55 calls, 608,024 tokens, 176 s.    
 
 ### Did the team do better?
-Yes, but not by much. The first run was tied and the team was a little bit better than the baseline in the 2nd run by 1 issue and 1 false claim. But the team's own two runs differed by two issues, so the gap between systems is smaller than the noise between runs.
+Not clearly. The first run was tied and the team was a little bit better than the baseline in the 2nd run by 1 issue and 1 false claim. But the team's own two runs differed by two issues, so the gap between systems is smaller than the noise between runs.
 
 ### The handoff
 The only handback was on #2 in the first team run. The verifier said split_amount(-1000, 3) gave [-335, -334, -334] instead of [-334, -333, -333] and it was right. The next fix still didn't pass. It gave [-333, -333, -334], and the verifier accepted it because its new test expected that value instead of the docstring's. The hidden tests caught it
